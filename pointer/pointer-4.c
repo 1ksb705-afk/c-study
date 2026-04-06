@@ -1,5 +1,7 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+int count_even(int ar[10]);
+void print_cnt(int r);
 int main(void) {
 	int res;
 	int ar[10]; //10개의 배열(0~9)
@@ -26,6 +28,7 @@ int main(void) {
 	}	
 	return cnt; //반환되는 값(짝수개수)
 }
+	//함수정의
 	void print_cnt(int r) { //매개변수 정수형 res->r
 
 		printf("개수는: %d", r);
